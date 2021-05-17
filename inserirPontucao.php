@@ -32,7 +32,7 @@
                                  VALUES ( :jogador, :pontos ) ");
     }
 
-    //Executa o Update ou Insert
+    //Executa o Update ou Insert ... 
     $query->execute([
         ":jogador" => $_POST['jogador'],
         ":pontos"  => $_POST['pontos']
