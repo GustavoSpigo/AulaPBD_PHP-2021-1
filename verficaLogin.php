@@ -3,7 +3,6 @@
     
     //$_POST['login']
     //$_POST['senha']
-    $chave = "ninguém vai ganhar nem perder, vai todo mundo perder";
 
     $query = $PDO->prepare("SELECT * 
                               FROM jogador
